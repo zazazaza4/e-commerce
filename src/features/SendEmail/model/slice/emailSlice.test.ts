@@ -42,11 +42,14 @@ describe('emailReducer', () => {
       error: undefined,
     };
 
-    const errorPayload = {
-      message: 'Error sending confirmation email',
-    };
+    const errorMessage = 'Error sending confirmation email';
 
-    const newState = emailReducer(state as EmailSchema, sendOrderConfirmationEmail.rejected(errorPayload));
+    const newState = emailReducer(
+      state as EmailSchema,
+      sendOrderConfirmationEmail.rejected(new Error(errorMessage), '', {
+        customerName: '', items: '', orderDate: '', totalAmount: '',
+      }),
+    );
 
     expect(newState).toEqual({
       isLoading: false,
