@@ -1,3 +1,4 @@
+import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import webpack from 'webpack';
@@ -13,6 +14,8 @@ export function buildPlugins({
   project,
   emailjs,
 }: BuildOptions): webpack.WebpackPluginInstance[] {
+  const isProd = !isDev;
+
   const plugins = [
     new HtmlWebpackPlugin({
       template: paths.html,
@@ -39,6 +42,14 @@ export function buildPlugins({
     plugins.push(new webpack.HotModuleReplacementPlugin());
     plugins.push(new BundleAnalyzerPlugin({
       openAnalyzer: false,
+    }));
+  }
+
+  if (isProd) {
+    plugins.push(new CopyPlugin({
+      patterns: [
+        { from: paths.locales, to: paths.buildLocales },
+      ],
     }));
   }
 
