@@ -5,7 +5,7 @@ import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDeco
 import { Cart } from './Cart';
 
 const meta = {
-  title: 'feature/Cart',
+  title: 'entities/Cart',
   component: Cart,
   tags: ['autodocs'],
   argTypes: {},
@@ -15,7 +15,6 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {};
-
 Primary.decorators = [
   StoreDecorator({
     cart: {
@@ -40,4 +39,9 @@ Primary.decorators = [
       ],
     },
   }),
+];
+
+export const Empty: Story = {};
+Empty.decorators = [
+  StoreDecorator({}),
 ];

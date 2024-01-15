@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { CartItem } from './CartItem';
 
 const meta = {
-  title: 'feature/Cart/CartItem',
+  title: 'entities/Cart/CartItem',
   component: CartItem,
   tags: ['autodocs'],
   argTypes: {},

@@ -6,7 +6,7 @@ import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDeco
 import { CartIcon } from './CartIcon';
 
 const meta = {
-  title: 'feature/Cart/CartIcon',
+  title: 'entities/Cart/CartIcon',
   component: CartIcon,
   tags: ['autodocs'],
   argTypes: {},
