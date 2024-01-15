@@ -1,0 +1,57 @@
+{
+  "addToCart": "addToCart",
+  "backHome": "backHome",
+  "cart": {
+    "empty": "empty",
+    "proceedToCheckout": "proceedToCheckout",
+    "title": "title"
+  },
+  "currency": "currency",
+  "description": "description",
+  "email": "email",
+  "emailRequired": "emailRequired",
+  "emailSentSuccessfully": "emailSentSuccessfully",
+  "error": {
+    "button": "button",
+    "message": "message"
+  },
+  "errorOccurred": "errorOccurred",
+  "excitingNewWebsite": "excitingNewWebsite",
+  "footer": {
+    "about": {
+      "title": "title"
+    },
+    "help": {
+      "title": "title"
+    },
+    "info": {
+      "title": "title"
+    },
+    "rightsReserved": "rightsReserved",
+    "termsAndPrivacy": "termsAndPrivacy"
+  },
+  "invalidEmail": "invalidEmail",
+  "invalidPhone": "invalidPhone",
+  "langs": {
+    "en": "en",
+    "ukr": "ukr"
+  },
+  "name": "name",
+  "nameRequired": "nameRequired",
+  "noProductsAvailable": "noProductsAvailable",
+  "phone": "phone",
+  "phoneRequired": "phoneRequired",
+  "placeOrder": "placeOrder",
+  "price": "price",
+  "searchButton": "searchButton",
+  "searchPlaceholder": "searchPlaceholder",
+  "selectedProducts": "selectedProducts",
+  "sidebar": {
+    "categoryTitle": "categoryTitle",
+    "title": "title"
+  },
+  "title": "title",
+  "totalPrice": "totalPrice",
+  "workInProgress": "workInProgress",
+  "workingOnTheSite": "workingOnTheSite"
+}
