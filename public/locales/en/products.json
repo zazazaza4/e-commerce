@@ -1,0 +1,15 @@
+{
+  "title": "Shop by category",
+  "sidebar": {
+    "title": "Filters",
+    "categoryTitle": "Select Category:"
+  },
+  "price": "Price",
+  "addToCart": " Add to Cart",
+  "previous": "Previous",
+  "next": "Next",
+  "currency": "$",
+  "noProductsAvailable": "No products available",
+  "searchPlaceholder": "Search...",
+  "searchButton": "Search"
+}

@@ -1,0 +1,49 @@
+{
+  "": "",
+  "Not Found Page": "Not Found Page",
+  "addToCart": "addToCart",
+  "backHome": "backHome",
+  "cart": {
+    "title": "title"
+  },
+  "categoty": "categoty",
+  "currency": "currency",
+  "description": "description",
+  "error": {
+    "button": "button",
+    "message": "message"
+  },
+  "excitingNewWebsite": "excitingNewWebsite",
+  "footer": {
+    "about": {
+      "title": "title"
+    },
+    "help": {
+      "title": "title"
+    },
+    "info": {
+      "title": "title"
+    },
+    "rightsReserved": "rightsReserved",
+    "termsAndPrivacy": "termsAndPrivacy"
+  },
+  "header": {
+    "login": "login",
+    "logout": "logout"
+  },
+  "langs": {
+    "en": "en",
+    "ukr": "ukr"
+  },
+  "next": "next",
+  "previous": "previous",
+  "price": "price",
+  "sidebar": {
+    "categoryTitle": "categoryTitle",
+    "title": "title"
+  },
+  "sidebarTitle": "sidebarTitle",
+  "title": "title",
+  "workInProgress": "workInProgress",
+  "workingOnTheSite": "workingOnTheSite"
+}

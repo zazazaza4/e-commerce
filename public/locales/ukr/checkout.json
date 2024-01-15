@@ -1,0 +1,17 @@
+{
+  "selectedProducts": "Вибрані товари:",
+  "totalPrice": "Загальна вартість:",
+  "currency": "$",
+  "nameRequired": "Ім'я є обов'язковим",
+  "invalidEmail": "Недійсна адреса електронної пошти",
+  "emailRequired": "Електронна пошта є обов'язковою",
+  "phoneRequired": "Номер телефону є обов'язковим",
+  "placeOrder": "Оформити замовлення",
+  "template": "template_6xmd3gf",
+  "name": "Ім'я",
+  "phone": "Телефон",
+  "email": "Електронна пошта",
+  "invalidPhone": "Невірний номер телефону",
+  "emailSentSuccessfully": "Замовлення оброблено, ми зв'яжемося з вами",
+  "errorOccurred": "Виникла помилка"
+}

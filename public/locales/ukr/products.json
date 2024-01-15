@@ -1,0 +1,13 @@
+{
+  "title": "НОВІ НАДХОДЖЕННЯ",
+  "sidebar": {
+    "title": "Фільтри",
+    "categoryTitle": "Виберіть категорію:"
+  },
+  "price": "Ціна",
+  "addToCart": "Додати до корзини",
+  "currency": "$",
+  "noProductsAvailable": "Немає доступних товарів",
+  "searchPlaceholder": "Пошук...",
+  "searchButton": "Пошук"
+}

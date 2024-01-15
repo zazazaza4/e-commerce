@@ -1,0 +1,71 @@
+{
+  "": "",
+  "<": "<",
+  ">": ">",
+  "Not Found Page": "Not Found Page",
+  "addToCart": "addToCart",
+  "backHome": "backHome",
+  "cart": {
+    "empty": "empty",
+    "proceedToCheckout": "proceedToCheckout",
+    "quantity": "quantity",
+    "title": "title",
+    "totalPrice": "totalPrice"
+  },
+  "categoty": "categoty",
+  "currency": "currency",
+  "description": "description",
+  "email": "email",
+  "emailRequired": "emailRequired",
+  "emailSentSuccessfully": "emailSentSuccessfully",
+  "error": {
+    "button": "button",
+    "message": "message"
+  },
+  "errorOccurred": "errorOccurred",
+  "excitingNewWebsite": "excitingNewWebsite",
+  "footer": {
+    "about": {
+      "title": "title"
+    },
+    "help": {
+      "title": "title"
+    },
+    "info": {
+      "title": "title"
+    },
+    "rightsReserved": "rightsReserved",
+    "termsAndPrivacy": "termsAndPrivacy"
+  },
+  "header": {
+    "login": "login",
+    "logout": "logout"
+  },
+  "invalidEmail": "invalidEmail",
+  "invalidPhone": "invalidPhone",
+  "langs": {
+    "en": "en",
+    "ukr": "ukr"
+  },
+  "name": "name",
+  "nameRequired": "nameRequired",
+  "next": "next",
+  "noProductsAvailable": "noProductsAvailable",
+  "phone": "phone",
+  "phoneRequired": "phoneRequired",
+  "placeOrder": "placeOrder",
+  "previous": "previous",
+  "price": "price",
+  "searchButton": "searchButton",
+  "searchPlaceholder": "searchPlaceholder",
+  "selectedProducts": "selectedProducts",
+  "sidebar": {
+    "categoryTitle": "categoryTitle",
+    "title": "title"
+  },
+  "sidebarTitle": "sidebarTitle",
+  "title": "title",
+  "totalPrice": "totalPrice",
+  "workInProgress": "workInProgress",
+  "workingOnTheSite": "workingOnTheSite"
+}

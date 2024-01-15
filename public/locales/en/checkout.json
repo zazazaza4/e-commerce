@@ -1,0 +1,17 @@
+{
+  "selectedProducts": "Selected Products:",
+  "totalPrice": "Total Price:",
+  "currency": "$",
+  "nameRequired": "Name is required",
+  "invalidEmail": "Invalid email address",
+  "emailRequired": "Email is required",
+  "phoneRequired": "Phone number is required",
+  "placeOrder": "Place Order",
+  "template": "template_nvzy73b",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "invalidPhone": "Invalid phone number",
+  "emailSentSuccessfully": "The order was processed, and we will be in touch with you",
+  "errorOccurred": "An error occurred"
+}
