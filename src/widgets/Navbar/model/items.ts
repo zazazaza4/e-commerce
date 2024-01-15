@@ -1,3 +1,5 @@
+import i18n from 'i18next';
+
 import { RoutesPath } from 'shared/config/routeConfig/routeConfig';
 
 export interface NavbarItemType {
@@ -8,14 +10,14 @@ export interface NavbarItemType {
 export const NavbarItemList: NavbarItemType[] = [
   {
     path: RoutesPath.main,
-    text: 'navbar.main',
+    text: i18n.t('navbar.main'),
   },
   {
     path: RoutesPath.about,
-    text: 'navbar.about',
+    text: i18n.t('navbar.about'),
   },
   {
     path: RoutesPath.products,
-    text: 'navbar.products',
+    text: i18n.t('navbar.products'),
   },
 ];

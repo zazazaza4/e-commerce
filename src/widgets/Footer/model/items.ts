@@ -1,3 +1,5 @@
+import i18n from 'i18next';
+
 import { RoutesPath } from 'shared/config/routeConfig/routeConfig';
 
 export interface FooterItemType {
@@ -8,44 +10,44 @@ export interface FooterItemType {
 export const FooterHelpList: FooterItemType[] = [
   {
     path: RoutesPath.contact_us,
-    text: 'footer.contact-us',
+    text: i18n.t('footer.contact-us'),
   },
   {
     path: RoutesPath.faq,
-    text: 'footer.faq',
+    text: i18n.t('footer.faq'),
   },
   {
     path: RoutesPath.accessibility,
-    text: 'footer.accessibility',
+    text: i18n.t('footer.accessibility'),
   },
 ];
 
 export const FooterAboutList: FooterItemType[] = [
   {
     path: RoutesPath.about,
-    text: 'footer.about-us',
+    text: i18n.t('footer.about-us'),
   },
   {
     path: RoutesPath.search_our_store,
-    text: 'footer.search-our-store',
+    text: i18n.t('footer.search-our-store'),
   },
   {
     path: RoutesPath.blog,
-    text: 'footer.blog',
+    text: i18n.t('footer.blog'),
   },
 ];
 
 export const FooterInfoList: FooterItemType[] = [
   {
     path: RoutesPath.return_policy,
-    text: 'footer.return-policy',
+    text: i18n.t('footer.return-policy'),
   },
   {
     path: RoutesPath.terms_of_service,
-    text: 'footer.term-of-service',
+    text: i18n.t('footer.term-of-service'),
   },
   {
     path: RoutesPath.privacy_policy,
-    text: 'footer.privacy-policy',
+    text: i18n.t('footer.privacy-policy'),
   },
 ];
