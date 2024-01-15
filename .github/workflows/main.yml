@@ -39,5 +39,6 @@ jobs:
         run: npm run test:ui:ci
         if: always()
       - name: integration testing
-        run: npm run test:e2e
-        if: always()
+        uses: cypress-io/github-action@v6
+        with:
+          start: npm start
