@@ -24,6 +24,7 @@ export const LangSwitcher: FC = memo(() => {
           border: 0,
         },
       }}
+      defaultValue={i18n.language || 'en'}
       value={i18n.language}
       onChange={handleChange}
     >
