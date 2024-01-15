@@ -32,6 +32,11 @@ To get started, follow these steps:
     ```
 
 ## Scripts
+Start the development server with webpack, specifying development mode, port, and API URLs. You can customize the API and EmailJS variables using the `--env` flag:
+```bash
+npm start --env apiUrl=https://fakestoreapi.com --env emailjsServiceId=your_emailjs_service_id --env emailjsTemplateId=your_emailjs_template_id --env emailjsUserId=your_emailjs_user_id
+```
+
 - **start**: Start the development server with webpack, specifying development mode, port, and API URLs.
 - **build:prod**: Build the application for production.
 - **build:dev**: Build the application for development.
