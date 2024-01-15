@@ -1,7 +1,9 @@
 import { FC, memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { ImageList, ImageListItem, Typography } from '@mui/material';
+import {
+  Box, ImageList, ImageListItem, Typography,
+} from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
@@ -20,7 +22,7 @@ const MainPage: FC = memo(() => {
   }, [navigate]);
 
   return (
-    <>
+    <Box data-testid="MainPage">
       <Typography
         variant="h4"
         color="black"
@@ -29,6 +31,7 @@ const MainPage: FC = memo(() => {
           textAlign: 'center',
           mb: '3rem',
         }}
+        data-testid="MainPageTitle"
       >
         {t('title')}
       </Typography>
@@ -53,7 +56,7 @@ const MainPage: FC = memo(() => {
           </ImageListItem>
         ))}
       </ImageList>
-    </>
+    </Box>
   );
 });
 

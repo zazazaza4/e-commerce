@@ -12,7 +12,7 @@ const ProductDetailsPage = () => {
 
   if (!id) {
     return (
-      <Box>
+      <Box data-testid="ProductDetailsPage">
         <Typography>
           error
         </Typography>
@@ -21,7 +21,7 @@ const ProductDetailsPage = () => {
   }
 
   return (
-    <Box>
+    <Box data-testid="ProductDetailsPage">
       <ProductDetails id={id} />
     </Box>
   );

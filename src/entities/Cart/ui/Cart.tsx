@@ -73,6 +73,7 @@ export const Cart: FC = memo(() => {
       }}
     >
       <IconButton
+        aria-label="Close cart"
         onClick={handleOnClose}
         sx={{
           alignSelf: 'flex-end',
@@ -116,7 +117,13 @@ export const Cart: FC = memo(() => {
 
           </List>
           <Box sx={{ display: 'flex', justifyContent: 'flex-end', margin: '16px 4px 30px 4px' }}>
-            <Button variant="contained" color="primary" onClick={handleProceedToCheckout}>
+            <Button
+              data-testid="ProceedToCheckout"
+              aria-label="Proceed to checkout"
+              variant="contained"
+              color="primary"
+              onClick={handleProceedToCheckout}
+            >
               {t('cart.proceedToCheckout')}
             </Button>
           </Box>

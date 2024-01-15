@@ -15,7 +15,16 @@ const ComingSoonPage: FC<ComingSoonPageProps> = () => {
   const { t } = useTranslation('coming-soon');
 
   return (
-    <MainBox sx={{ flexDirection: { xs: 'column', md: 'row' } }}>
+    <MainBox
+      data-testid="ComingSoonPage"
+      sx={{
+        flexDirection: {
+          xs:
+    'column',
+          md: 'row',
+        },
+      }}
+    >
       <Box sx={{ maxWidth: '30rem' }}>
         <Typography
           variant="h4"

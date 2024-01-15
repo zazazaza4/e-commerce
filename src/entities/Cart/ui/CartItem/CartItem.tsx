@@ -24,7 +24,7 @@ export const CartItem: FC<CartItemProps> = memo(({
   const { t } = useTranslation();
 
   return (
-    <ListItem sx={{ borderBottom: '1px solid #ccc' }}>
+    <ListItem data-testid="SelectedProductItem" sx={{ borderBottom: '1px solid #ccc' }}>
       <Box sx={{ flex: 1 }}>
         <ListItemText
           primary={truncateText(item.title, 20)}
@@ -35,10 +35,17 @@ export const CartItem: FC<CartItemProps> = memo(({
         <IconButton onClick={() => handleAddProduct(item)} color="primary">
           +
         </IconButton>
-        <IconButton onClick={() => handleDeleteProduct(item)} color="error">
+        <IconButton
+          data-testid="removeFromCartButton"
+          onClick={() => handleDeleteProduct(item)}
+          color="error"
+        >
           -
         </IconButton>
-        <IconButton onClick={() => handleDeleteAllProduct(item)} color="error">
+        <IconButton
+          onClick={() => handleDeleteAllProduct(item)}
+          color="error"
+        >
           Clear
         </IconButton>
       </Box>

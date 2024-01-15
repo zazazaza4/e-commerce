@@ -67,13 +67,13 @@ const CheckoutPage: FC = memo(() => {
     content = <Loader />;
   } else if (error) {
     content = (
-      <Typography variant="h4" color="error">
+      <Typography data-testid="OrderMessageError" variant="h4" color="error">
         {t('errorOccurred')}
       </Typography>
     );
   } else if (isSuccess) {
     content = (
-      <Typography variant="h4" color="primary.main">
+      <Typography data-testid="OrderMessageSuccess" variant="h4" color="primary.main">
         {t('emailSentSuccessfully')}
       </Typography>
     );
@@ -82,7 +82,11 @@ const CheckoutPage: FC = memo(() => {
   }
 
   return (
-    <Container component="main" maxWidth="md">
+    <Container
+      data-testid="CheckoutPage"
+      component="main"
+      maxWidth="md"
+    >
       <Box mb="20px">
         <Grid item xs={12}>
           <Typography variant="h6">{t('selectedProducts')}</Typography>

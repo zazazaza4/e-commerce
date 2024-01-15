@@ -1,13 +1,10 @@
 import React, { FC, memo, useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import ShoppingCart from '@mui/icons-material/ShoppingCart';
 import {
   AppBar,
   Box,
-  Button,
   Drawer,
   IconButton,
-  Typography,
   useMediaQuery,
   useTheme,
 } from '@mui/material';
@@ -15,8 +12,6 @@ import {
 import { LangSwitcher } from 'widgets/LangSwitcher';
 
 import { CartIcon } from 'entities/Cart';
-
-import { Logo } from 'shared/ui/Logo/Logo';
 
 import { NavbarItemList } from '../model/items';
 import { DrawerContent } from './DrawerContent/DrawerContent';
@@ -49,6 +44,7 @@ export const Navbar: FC<NavbarProps> = memo((props: NavbarProps) => {
       {matches ? (
         <NavbarContainer>
           <IconButton
+            data-testid="menu-button"
             sx={{
               flex: 1,
               justifyContent: 'start',
@@ -62,7 +58,7 @@ export const Navbar: FC<NavbarProps> = memo((props: NavbarProps) => {
           >
             <MenuIcon />
           </IconButton>
-          <Drawer anchor="top" open={openDrawer} onClose={toggleDrawer(false)}>
+          <Drawer data-testid="my-drawer" anchor="top" open={openDrawer} onClose={toggleDrawer(false)}>
             <DrawerContent lists={NavbarItemList} onClose={toggleDrawer(false)} />
           </Drawer>
           <Box

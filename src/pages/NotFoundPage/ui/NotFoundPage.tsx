@@ -18,7 +18,13 @@ const NotFoundPage: FC<NotFoundPageProps> = () => {
   const { t } = useTranslation('not-found');
 
   return (
-    <MainBox sx={{ flexDirection: { xs: 'column', md: 'row' }, gap: 10 }}>
+    <MainBox
+      data-testid="NotFoundPage"
+      sx={{
+        flexDirection: { xs: 'column', md: 'row' },
+        gap: 10,
+      }}
+    >
       <Box sx={{ maxWidth: '30rem' }}>
         <Typography
           variant="h4"

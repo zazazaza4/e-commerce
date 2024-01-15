@@ -17,7 +17,11 @@ export const CartIcon: FC = memo(() => {
   };
 
   return (
-    <Button onClick={handleOnOpen} sx={{ color: 'white' }}>
+    <Button
+      data-testid="CartIcon"
+      onClick={handleOnOpen}
+      sx={{ color: 'white' }}
+    >
       <ShoppingCartIcon />
       <Typography sx={{ marginTop: '-1rem' }}>{`(${cartItemCount})`}</Typography>
     </Button>
